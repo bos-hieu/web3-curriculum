@@ -18,3 +18,50 @@ cd learn-digital-ledgers-by-building-a-blockchain/
 ls
 cd ..
 git add .
+git commit . -m "feat: update"
+git push
+node init-blockchain.js
+cd learn-digital-ledgers-by-building-a-blockchain/
+node init-blockchain.js
+clear
+touch blockchain-helpers.js
+git checkout -b learn/digital-ledgers
+git commit . -m "feat: add blockchain-helpers.js"
+git push
+git push --set-upstream origin learn/digital-ledgers
+git add .
+git commit . -m "feat: add blockchain-helpers.js"
+git push
+touch add-block.js
+node add-block.js 
+node init-blockchain.js 
+node add-block.js 
+git add .
+node add-block.js 
+git add .
+git commit . -m "feat: add add-block.js"
+git push
+touch validate-chain.js
+node validate-chain.js 
+git add .
+git commit . -m "feat: add validate-chain.js"
+git push
+node add-block.js Me You 10
+node add-block.js Me You 20
+node add-block.js Me You 30
+node validate-chain.js 
+git add .
+git commit . -m "feat: add data to block"
+git push
+touch add-transaction.js
+node add-transaction.js You Me 5
+node add-transaction.js You Me 15
+node add-transaction.js You Me 25
+node add-transaction.js You Me 35
+node add-block.js 
+node add-transaction.js Me You 2
+node add-transaction.js Me You 4
+node add-transaction.js Me You 6
+node add-block.js 
+node validate-chain.js 
+git add .
