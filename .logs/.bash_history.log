@@ -65,3 +65,10 @@ node add-transaction.js Me You 6
 node add-block.js 
 node validate-chain.js 
 git add .
+cd learn-proof-of-work-consensus-by-building-a-block-mining-algorithm/
+ls
+node add-transaction.js You Me 100
+node add-block.js 
+node validate-chain.js 
+git checkout -b learn/proof-of-work
+git add .
