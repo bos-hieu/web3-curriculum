@@ -72,3 +72,12 @@ node add-block.js
 node validate-chain.js 
 git checkout -b learn/proof-of-work
 git add .
+git commit . -m "feat: init proof of work"
+git push
+git push --set-upstream origin learn/proof-of-work
+rm add-block.js 
+touch mine-block.js
+npm install crypto-js
+node mine-block.js 
+node add-transaction.js You Me 12
+git add .

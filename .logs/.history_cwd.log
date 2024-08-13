@@ -91,3 +91,17 @@
 /workspace/web3-curriculum$ 1 cd . && NODE_ENV=production node ./node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js
 /workspace/web3-curriculum$ 2 git checkout -b learn/proof-of-work
 /workspace/web3-curriculum$ 3 git add .
+/workspace/web3-curriculum$ 4 git commit . -m "feat: init proof of work"
+/workspace/web3-curriculum$ 5 git push
+/workspace/web3-curriculum$ 6 git push --set-upstream origin learn/proof-of-work
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 7 rm add-block.js
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 8 touch mine-block.js
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 9 npm install crypto-js
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 10 node mine-block.js
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 10 node mine-block.js
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 10 node mine-block.js
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 10 node mine-block.js
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 11 node add-transaction.js You Me 12
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 11 node add-transaction.js You Me 12
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 11 node add-transaction.js You Me 12
+/workspace/web3-curriculum$ 7 git add .
