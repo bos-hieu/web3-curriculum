@@ -89,3 +89,38 @@ node mine-block.js
 node add-transaction.js You Me 24
 node mine-block.js 
 git add .
+git commit . -m "feat: add nonce"
+git push
+node init-blockchain.js 
+node add-transaction.js You Me 12
+node add-transaction.js You Me 16
+node mine-block.js 
+node add-transaction.js You Me 20
+node mine-block.js 
+node add-transaction.js You Me 10
+node mine-block.js 
+node validate-chain.js 
+node init-blockchain.js 
+node add-transaction.js You Me 15
+node add-transaction.js You Me 25
+node mine-block.js 
+node add-transaction.js You Me 5
+node add-transaction.js You Me 10
+node mine-block.js 
+node validate-chain.js 
+touch get-address-balance.js
+node get-address-balance.js Me
+node get-address-balance.js You
+node init-blockchain.js 
+node add-transaction.js Me You 40
+node get-address-balance.js Me
+node get-address-balance.js You
+node mine-block.js 
+node get-address-balance.js Me
+node add-transaction.js Me You 40
+node get-address-balance.js Me
+node mine-block.js 
+node get-address-balance.js Me
+node get-address-balance.js You
+node add-transaction.js Me I 5
+git add .

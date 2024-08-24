@@ -14,9 +14,6 @@ while (!hash.startsWith('0'.repeat(difficulty))) {
   hash = sha256(nonce + previousBlock.hash + JSON.stringify(transactions)).toString();
 }
 
-console.log(`nonce = ${nonce}`);
-console.log(`hash = ${hash}`);
-
 const newBlock = {
   hash,
   nonce,
