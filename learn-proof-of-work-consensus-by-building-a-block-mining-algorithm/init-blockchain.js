@@ -6,4 +6,4 @@ const genesisBlock = {
 }
 
 const blockchain = [genesisBlock];
-// writeBlockchain(blockchain);
+writeBlockchain(blockchain);

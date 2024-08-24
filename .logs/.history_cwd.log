@@ -105,3 +105,21 @@
 /workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 11 node add-transaction.js You Me 12
 /workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 11 node add-transaction.js You Me 12
 /workspace/web3-curriculum$ 7 git add .
+/workspace/web3-curriculum$ 8 git commit . -m "feat: add mine block"
+/workspace/web3-curriculum$ 9 git push
+/workspace/web3-curriculum$ 1 cd . && NODE_ENV=production node ./node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js
+/workspace/web3-curriculum$ 1 cd . && NODE_ENV=production node ./node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js
+/workspace/web3-curriculum$ 1 cd . && NODE_ENV=production node ./node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js
+/workspace/web3-curriculum$ 1 cd . && NODE_ENV=production node ./node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 2 cd learn-proof-of-work-consensus-by-building-a-block-mining-algorithm/
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 3 ls
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 4 node mine-block.js
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 5 node add-transaction.js You Me 24
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 6 node mine-block.js
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 6 node mine-block.js
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 6 node mine-block.js
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 6 node mine-block.js
+/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 6 node mine-block.js
+/workspace/web3-curriculum$ 1 cd . && NODE_ENV=production node ./node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js
+/workspace/web3-curriculum$ 1 cd . && NODE_ENV=production node ./node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js
+/workspace/web3-curriculum$ 2 git add .

@@ -85,13 +85,35 @@
     ]
   },
   {
-    "hash": "0.5420697443053875",
+    "hash": "0.6794485913041626",
     "previousHash": "0.13366310229995104",
     "transactions": [
       {
         "fromAddress": "You",
         "toAddress": "Me",
         "amount": 100
+      }
+    ]
+  },
+  {
+    "hash": "8918798f00325bc42982023c4de4956738651dc68c501311e227b18dcb80f519",
+    "previousHash": "0.6794485913041626",
+    "transactions": [
+      {
+        "fromAddress": "You",
+        "toAddress": "Me",
+        "amount": 12
+      }
+    ]
+  },
+  {
+    "hash": "221654f1f8a4159ef9588be206f4ca329c78c6f5f1caa59ad7a319e8452b8fac",
+    "previousHash": "8918798f00325bc42982023c4de4956738651dc68c501311e227b18dcb80f519",
+    "transactions": [
+      {
+        "fromAddress": "You",
+        "toAddress": "Me",
+        "amount": 24
       }
     ]
   }

@@ -10,4 +10,4 @@ const newBlock = {
 };
 blockchain.push(newBlock);
 writeBlockchain(blockchain);
-writeTransactions([])
+writeTransactions([]);

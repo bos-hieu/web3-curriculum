@@ -81,3 +81,11 @@ npm install crypto-js
 node mine-block.js 
 node add-transaction.js You Me 12
 git add .
+git commit . -m "feat: add mine block"
+git push
+cd learn-proof-of-work-consensus-by-building-a-block-mining-algorithm/
+ls
+node mine-block.js 
+node add-transaction.js You Me 24
+node mine-block.js 
+git add .
