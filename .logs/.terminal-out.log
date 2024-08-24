@@ -1,3 +1,6 @@
-[01;32mroot[00m [01;34m/workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mini
-ng-algorithm[00m (learn/proof-of-work) $ 🟠 WARN:  2024-08-23 22:26:13 Selected project does not exist:  { event: 'select-project', data: {} }
-git add .
+[01;32mroot[00m [01;34m/workspace/web3-curriculum/learn-digital-signatures-by-building-a-wallet[00m (learn/d
+igital-signatures) $ node generate-wallet.js 
+Public Key: 0486035ac667b0b1739d5c92ebb83df77cef405dd0c888429918769ea3355f8a27edf60a9d1f778943c54fee781922b564
+Private Key: 911a0f72b19bf240fc7cb676f913d22265a37011f5761886
+Public Key 2: 0486035ac667b0b1739d5c92ebb83df77cef405dd0c888429918769ea3355f8a27edf60a9d1f778943c54fee781922b564
+Private Key 2: 911a0f72b19bf240fc7cb676f913d22265a37011f5761886

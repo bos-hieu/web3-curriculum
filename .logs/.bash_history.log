@@ -124,3 +124,15 @@ node get-address-balance.js Me
 node get-address-balance.js You
 node add-transaction.js Me I 5
 git add .
+git commit . -m "feat: finish course"
+git push
+git checkout -b learn/digital-signatures
+cd ..
+cd learn-digital-signatures-by-building-a-wallet/
+node get-address-balance.js Me
+node add-transaction.js Me You 35
+node mine-block.js 
+node validate-chain.js 
+touch generate-wallet.js
+npm install elliptic
+node generate-wallet.js 

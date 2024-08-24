@@ -163,3 +163,16 @@
 /workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 37 node get-address-balance.js You
 /workspace/web3-curriculum/learn-proof-of-work-consensus-by-building-a-block-mining-algorithm$ 38 node add-transaction.js Me I 5
 /workspace/web3-curriculum$ 5 git add .
+/workspace/web3-curriculum$ 6 git commit . -m "feat: finish course"
+/workspace/web3-curriculum$ 7 git push
+/workspace/web3-curriculum$ 8 git checkout -b learn/digital-signatures
+/workspace/web3-curriculum$ 39 cd ..
+/workspace/web3-curriculum/learn-digital-signatures-by-building-a-wallet$ 40 cd learn-digital-signatures-by-building-a-wallet/
+/workspace/web3-curriculum/learn-digital-signatures-by-building-a-wallet$ 41 node get-address-balance.js Me
+/workspace/web3-curriculum/learn-digital-signatures-by-building-a-wallet$ 42 node add-transaction.js Me You 35
+/workspace/web3-curriculum/learn-digital-signatures-by-building-a-wallet$ 43 node mine-block.js
+/workspace/web3-curriculum/learn-digital-signatures-by-building-a-wallet$ 44 node validate-chain.js
+/workspace/web3-curriculum/learn-digital-signatures-by-building-a-wallet$ 45 touch generate-wallet.js
+/workspace/web3-curriculum/learn-digital-signatures-by-building-a-wallet$ 46 npm install elliptic
+/workspace/web3-curriculum/learn-digital-signatures-by-building-a-wallet$ 47 node generate-wallet.js
+/workspace/web3-curriculum/learn-digital-signatures-by-building-a-wallet$ 47 node generate-wallet.js
