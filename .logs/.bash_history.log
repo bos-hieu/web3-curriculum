@@ -136,3 +136,7 @@ node validate-chain.js
 touch generate-wallet.js
 npm install elliptic
 node generate-wallet.js 
+git commit . -m "feat: init course"
+git push
+git push --set-upstream origin learn/digital-signatures
+git add .

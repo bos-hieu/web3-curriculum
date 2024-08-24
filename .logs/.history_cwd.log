@@ -176,3 +176,7 @@
 /workspace/web3-curriculum/learn-digital-signatures-by-building-a-wallet$ 46 npm install elliptic
 /workspace/web3-curriculum/learn-digital-signatures-by-building-a-wallet$ 47 node generate-wallet.js
 /workspace/web3-curriculum/learn-digital-signatures-by-building-a-wallet$ 47 node generate-wallet.js
+/workspace/web3-curriculum$ 9 git commit . -m "feat: init course"
+/workspace/web3-curriculum$ 10 git push
+/workspace/web3-curriculum$ 11 git push --set-upstream origin learn/digital-signatures
+/workspace/web3-curriculum$ 12 git add .
